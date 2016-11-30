@@ -1,0 +1,34 @@
+/*
+@author Bocman
+@date Wed Nov 30 16:16:52 EET 2016
+*/
+
+
+@@Operation
+icrash.environment.actCoordinatorMobility.outactCoordinatorMobility.oeGetCrisisSet
+//parameters
+@parameter
+icrash.environment.actCoordinatorMobility.outactCoordinatorMobility.oeGetCrisisSet.AetCrisisStatus
+""
+@endParameters
+
+@description "
+ "
+//preProtocol descriptions
+@preP
+" "
+@endPreP
+//preFunctional descriptions
+@preF
+" "
+@endPreF
+//postFunctional descriptions
+@postF 
+" "
+@endPostF
+//postProtocol descriptions
+@postP 
+" "
+@endPostP
+//example
+@example" "

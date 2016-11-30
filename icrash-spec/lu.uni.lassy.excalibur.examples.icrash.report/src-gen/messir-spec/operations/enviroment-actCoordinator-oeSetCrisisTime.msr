@@ -1,0 +1,24 @@
+/*
+* @author Bocman
+* @date Wed Nov 30 06:05:34 EET 2016
+*/
+
+package icrash.operations.environment.actCoordinator.oeSetCrisisTime1 {
+
+import lu.uni.lassy.messir.libraries.primitives
+import lu.uni.lassy.messir.libraries.math
+import lu.uni.lassy.messir.libraries.string
+import lu.uni.lassy.messir.libraries.calendar
+
+import icrash.concepts.primarytypes.datatypes
+import icrash.concepts.primarytypes.classes
+import icrash.concepts.secondarytypes.datatypes
+import icrash.environment
+
+
+	Operation Model {
+		operation: actCoordinator.outactCoordinator.oeSetCrisisTime(AdtCrisisID:dtCrisisID, AdtTime:dtTime):ptBoolean{
+		}
+		}
+
+}

@@ -1,0 +1,26 @@
+/*
+@author Bocman
+@date Wed Nov 30 16:16:48 EET 2016
+*/
+
+
+@@Actor icrash.environment.actCoordinatorMobility
+@description ""
+//input events
+@inputEvent
+icrash.environment.actCoordinatorMobility.inactCoordinatorMobility.ieSendAnAlert
+"allows for receiving a requested ctAlert instance."
+@inputEvent
+icrash.environment.actCoordinatorMobility.inactCoordinatorMobility.ieSendACrisis
+"allows for receiving a requested ctCrisis instance."
+
+@endInputEvents
+//output events
+@outputEvent
+icrash.environment.actCoordinatorMobility.outactCoordinatorMobility.oeGetAlertsSet
+"sent to request all the ctAlert instances having a specific status."
+@outputEvent
+icrash.environment.actCoordinatorMobility.outactCoordinatorMobility.oeGetCrisisSet
+"sent to request all the ctCrisis instances having a specific status."
+
+@endOutputEvents

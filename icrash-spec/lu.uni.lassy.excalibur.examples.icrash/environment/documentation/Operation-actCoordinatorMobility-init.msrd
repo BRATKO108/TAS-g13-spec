@@ -1,0 +1,16 @@
+/*
+@author Bocman
+@date Wed Nov 30 16:16:50 EET 2016
+*/
+
+
+@@Operation
+icrash.environment.actCoordinatorMobility.init
+@description "
+used to initialize the current object as a new instance of the actCoordinatorMobility type. "
+//postFunctional descriptions
+@postF 
+"true iff the system poststate includes the current object as a new actCoordinatorMobility instance having its attributes equal to the ones provided as parameters. "
+@endPostF
+//example
+@example" "

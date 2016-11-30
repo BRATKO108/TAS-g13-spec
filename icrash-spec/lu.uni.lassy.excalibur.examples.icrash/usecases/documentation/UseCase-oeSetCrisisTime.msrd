@@ -1,0 +1,27 @@
+/*
+@author Bocman
+@date Wed Nov 30 05:35:31 EET 2016
+*/
+
+
+@@Use Case Subfunction icrash.usecases.subfunctions.oeSetCrisisTime
+@description "to set time for Human"
+@parameter icrash.usecases.subfunctions.oeSetCrisisTime.AdtCrisisID ""
+@parameter icrash.usecases.subfunctions.oeSetCrisisTime.AdtTime ""
+@endParameters
+@protocolCondition
+"
+"
+@endProtocolConditions
+@preCondition
+"
+"
+@endPreConditions
+@postCondition
+"
+"
+@endPostConditions
+@additionalInformation
+"
+none
+"

@@ -1,0 +1,31 @@
+\subsection{\msrcode{actCoordinatorMobility} Actor}
+
+
+\begin{actortable}
+	\addheading{Actor}
+	
+	\adddoublerow{actCoordinatorMobility}{}
+	
+	\addrowheading{Extends}
+	\addsinglerow{icrash.environment.actAuthenticated}
+	
+	
+	
+	
+	
+
+	\addrowheading{OutputInterfaces}
+	\addnumbereddoublerow{OUT}{\hypertarget{actCoordinatorMobility.outactCoordinatorMobility.oeGetAlertsSet}
+			{\msrcode{oeGetAlertsSet(AetAlertStatus:etAlertStatus):ptBoolean}}}
+			{sent to request all the ctAlert instances having a specific status.}
+	\addnumbereddoublerow{OUT}{\hypertarget{actCoordinatorMobility.outactCoordinatorMobility.oeGetCrisisSet}
+			{\msrcode{oeGetCrisisSet(AetCrisisStatus:etCrisisStatus):ptBoolean}}}
+			{sent to request all the ctCrisis instances having a specific status.}
+	
+	\addrowheading{InputInterfaces}
+	\addnumbereddoublerow{IN}{\msrcode{ieSendAnAlert(ActAlert:ctAlert):ptBoolean}}
+							 {allows for receiving a requested ctAlert instance.}
+	\addnumbereddoublerow{IN}{\msrcode{ieSendACrisis(ActCrisis:ctCrisis):ptBoolean}}
+							 {allows for receiving a requested ctCrisis instance.}
+	
+\end{actortable}

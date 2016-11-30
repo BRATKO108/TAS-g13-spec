@@ -1,0 +1,37 @@
+/*
+@author Bocman
+@date Wed Nov 30 13:24:06 EET 2016
+*/
+
+
+@@Operation
+icrash.environment.actCoordinator.outactCoordinator.oeSetCrisisTime
+//parameters
+@parameter
+icrash.environment.actCoordinator.outactCoordinator.oeSetCrisisTime.AdtCrisisID
+"the identification information used to determine the crisis"
+@parameter
+icrash.environment.actCoordinator.outactCoordinator.oeSetCrisisTime.AdtTime
+"Time for Human"
+@endParameters
+
+@description "
+ sent to declare himself Time."
+//preProtocol descriptions
+@preP
+"the system is started "
+@preP
+"the actor logged previously and did not log out ! (i.e. the associated ctCoordinator instance is considered logged)"
+@endPreP
+//preFunctional descriptions
+@preF
+"  there exist one crisis having the given id in the pre-state."
+@endPreF
+//postFunctional descriptions
+@postF 
+" a message of Time is sent to the communication company for any human related to an alert associated to the crisis. "
+@endPostF
+//postProtocol descriptions
+@postP 
+" none"
+@endPostP
