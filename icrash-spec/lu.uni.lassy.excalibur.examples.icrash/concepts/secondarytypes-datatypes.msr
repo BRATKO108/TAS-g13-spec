@@ -10,6 +10,7 @@ import icrash.concepts.primarytypes.datatypes
 		Secondary Types {
 				
 			datatype dtSMS {
+				
 				attribute value: ptString
 				operation is():ptBoolean
 			}
